@@ -3,7 +3,7 @@ import { PropagateLoader } from "react-spinners"
 
 
 const Success = () => {
-    const [loading, setLoading] = useState()
+    const [loading, setLoading] = useState(false)
   return (
     <div className="flex flex-col justify-center items-center h-screen">
         <PropagateLoader />
